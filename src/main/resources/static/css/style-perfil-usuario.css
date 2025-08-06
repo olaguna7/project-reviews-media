@@ -1,0 +1,306 @@
+.a:hover, .nav-link:hover {
+    cursor: pointer;
+    color: #FF8C42 !important;
+}
+.redes, .soporte, .legal {
+    text-decoration: none;
+    color: inherit;
+}
+.redes:hover, .soporte:hover, .legal:hover {
+    color: #FF8C42;
+}
+.bg-custom{
+    background-color: #4E598C !important;
+    color: white !important;
+    margin-top: 0 !important; 
+    
+}
+.btn:hover {
+    background-color: #FF8C42 !important;
+    color: #f0f0f0 !important;
+}
+#barraDeBusqueda {
+    width:430px !important;
+}
+
+/* *** Estilo del perfil de usuario *** */
+
+#nombreUsuario{
+    font-size: 28px;
+}
+
+#iconoAdministrador{
+    width: 53px;
+    height: 38px;
+    vertical-align: middle;
+}
+
+#biografiam{
+   white-space: pre-wrap;
+   word-break: break-word;
+}
+
+#ficha-principal-perfil {
+    margin-top: 2%;
+    padding: 20px;
+    background-color: #F8F9FA;
+    /*width: 100%;*/
+    padding-bottom: 40px;
+}
+
+.texto-miembro-desde{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+btn-perfil-biografia{
+    background-color: #fbe5ad;
+    color: #ff8a05;"
+}
+
+form button.btn-perfil-biografia {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+}
+
+form > div.text-end {
+    margin-bottom: 0;
+}
+
+form textarea#biografia {
+    margin-bottom: 0;
+}
+
+
+.btn-editar-perfil:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+img.rounded-circle {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.badge-generos {
+    font-weight: normal;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: #F9C784;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.tabs-contenido-principal {
+    margin-left: -13px; 
+}
+
+.nav-tabs .nav-link {
+    font-size: 1.1rem;
+}
+
+.nav-tabs .nav-item {
+    margin-right: 1rem;
+}
+
+.imagen-circular {
+    width: 100%;
+    max-width: 300px; 
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imagen-circular img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bg-light.rounded.shadow-sm.p-3 {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%; 
+}
+.tab-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.tab-pane > div {
+    min-height: 150px;
+}
+
+.contenedor-datos-ficha-perfil {
+    margin-top: 90px;
+    background-color: #F9C784;
+    max-width: 300px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #ficha-principal-perfil > div {
+        flex: 0 0 100%;
+    }
+
+    #ficha-principal-perfil{
+        margin-top: 20px;
+    }
+}
+
+#resenas-container .resena {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #fff9f0;
+    padding: 1.5rem;
+}
+#publicaciones-container .publicacion {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #fff9f0;
+    padding: 1.5rem;
+}
+
+#resenas-container .card-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+
+#resenas-container .card-text small {
+    font-weight: bold;
+}
+
+#megusta-container .resena {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #fff9f0;
+    padding: 1.5rem;
+}
+
+#megusta-container .card-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+#resenas-container,
+#publicaciones-container,
+#megusta-container {
+    min-height: 800px;
+    max-height: 800px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+/* *** Estilo de la configuración del perfil de usuario *** */
+#fondo-ajustes-perfil {
+    flex: 1 0 auto;
+    padding-bottom: 40px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0.3024859602043942) 46%, rgba(252,175,88,0.6330181730895483) 100%);
+}
+
+.color-option {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.color-option:hover {
+    transform: scale(1.1);
+}
+
+#color-picker {
+    appearance: none; 
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#paleta-perfil {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 5px; 
+}
+
+#contenedor-menu-desplegable {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    flex-wrap: wrap;
+}
+
+.fecha-registro {
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+textarea.guardado {
+    border: 2px solid #fff1db !important;
+    box-shadow: 0 0 5px #f8dda4;
+    transition: all 0.3s ease-in-out;
+}
+
+textarea#biografia {
+    height: 150px;
+    resize: none;
+}
+
+/*Para que el footer no suba*/
+.contenedor-ajustes-usuario {
+    flex: 1;
+}
+
+.btn-perso, .btn-agregar-amigo, .btn-guardar-ajustes {
+    border: 2px solid transparent;
+    background: #ff8c42;
+    color: #000000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 10px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.btn-perso:hover {
+    border: 2px solid #000000;
+    color: #ffffff !important;
+}
+
+.btn-agregar-amigo:hover {
+    border: 2px solid #000000;
+    color: #ffffff !important;
+}
+
+.lista-de-amigos {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #fff9f0;
+    max-height: 600px;
+    overflow-y: auto;
+}
